@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Константин Петрушин](https://up.htmlacademy.ru/htmlcss/36/user/1327895).
-* Наставник: `Неизвестно`.
+- Студент: [Константин Петрушин](https://up.htmlacademy.ru/htmlcss/36/user/1327895).
+- Наставник: [Максим Иванов] (https://htmlacademy.ru/profile/id342945).
 
 ---
 
