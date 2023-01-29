@@ -39,10 +39,10 @@
       </nav>
     </header>
 
-    <main class="main-inner">
+    <main class="catalog">
       <h1 class="visually-hidden">Выбор жилья в Седоне</h1>
 
-      <div class="main-inner__catalog catalog">
+      <div class="catalog__filter filter">
         <h2 class="catalog__heading">
           Гостиницы Седоны
         </h2>
@@ -55,77 +55,77 @@
             </li>
           </ol>
 
-          <form action="https://echo.htmlacademy.ru/" method="get" class="catalog__filter">
-            <fieldset class="catalog__group">
-              <legend class="catalog__title">Инфраструктура:</legend>
-              <ul class="catalog__filter-list">
-                <li class="catalog__filter-item">
-                  <label class="catalog__control">
-                    <input class="catalog__control-input" type="checkbox" name="swimming-pool" checked>Бассейн
+          <form action="https://echo.htmlacademy.ru/" method="get" class="filter__form">
+            <fieldset class="filter__group">
+              <legend class="filter__title">Инфраструктура:</legend>
+              <ul class="filter__list">
+                <li class="filter__item">
+                  <label class="filter__control">
+                    <input class="filter__control-input" type="checkbox" name="swimming-pool" checked>Бассейн
                   </label>
                 </li>
-                <li class="catalog__filter-item">
-                  <label class="catalog__control">
+                <li class="filter__item">
+                  <label class="filter__control">
                     <input type="checkbox" checked name="parking">Парковка
                   </label>
                 </li>
-                <li class="catalog__filter-item">
-                  <label class="catalog__control">
-                    <input class="catalog__control-input" type="checkbox" name="wi-fi">Wi-Fi
+                <li class="filter__item">
+                  <label class="filter__control">
+                    <input class="filter__control-input" type="checkbox" name="wi-fi">Wi-Fi
                   </label>
                 </li>
               </ul>
             </fieldset>
 
-            <fieldset class="catalog__group">
-              <legend class="catalog__title">Тип Жилья:</legend>
-              <ul class="catalog__filter-list">
+            <fieldset class="filter__group">
+              <legend class="filter__title">Тип Жилья:</legend>
+              <ul class="filter__list">
 
-                <li class="catalog__filter-item">
-                  <label class="catalog__control">
-                    <input class="catalog__control-input" type="radio" name="type-of-placement" value="hotels" checked>Гостиница
+                <li class="filter__item">
+                  <label class="filter__control">
+                    <input class="filter__control-input" type="radio" name="type-of-placement" value="hotels" checked>Гостиница
                   </label>
                 </li>
-                <li class="catalog__filter-item">
-                  <label class="catalog__control">
-                    <input class="catalog__control-input" name="type-of-placement" value="motel" type="radio">Мотель
+                <li class="filter__item">
+                  <label class="filter__control">
+                    <input class="filter__control-input" name="type-of-placement" value="motel" type="radio">Мотель
                   </label>
                 </li>
-                <li class="catalog__filter-item">
-                  <label class="catalog__control">
-                    <input class="catalog__control-input" name="type-of-placement" value="apartments" type="radio">Апартаменты
+                <li class="filter__item">
+                  <label class="filter__control">
+                    <input class="filter__control-input" name="type-of-placement" value="apartments" type="radio">Апартаменты
                   </label>
                 </li>
               </ul>
             </fieldset>
 
-            <fieldset class="catalog__filter-group">
-              <legend class="catalog__title">Стоимость, ₽</legend>
-              <label class="catalog__control">От
-                <input class="catalog__control-min" name="min-price" value="0" type="number">
+            <fieldset class="filter__group">
+              <legend class="filter__title">Стоимость, ₽</legend>
+              <label class="filter__control">От
+                <input class="filter__control-min" name="min-price" value="0" type="number">
               </label>
-              <label class="catalog__control">До
-                <input class="catalog__control-max" name="max-price" value="9000" type="number">
+              <label class="filter__control">До
+                <input class="filter__control-max" name="max-price" value="9000" type="number">
               </label>
-              <label class="catalog__control">От
-                <input class="catalog__control-input" name="price-range" type="range">До
+              <label class="filter__control">От
+                <input class="filter__control-input" name="price-range" type="range">До
               </label>
 
 
             </fieldset>
-            <button class="catalog__button-submit" type="submit">Применить</button>
-            <button class="catalog__button-reset" type="reset">Сбросить</button>
+            <button class="filter__button-submit" type="submit">Применить</button>
+            <button class="filter__button-reset" type="reset">Сбросить</button>
           </form>
         </div>
 
 
-        <div class="catalog__found">
+        <div class="catalog__found found">
           <p>
             <span>Найдено гостиниц:</span>
             <span>38</span>
           </p>
 
-          <select class="catalog__select" aria-label="Сортировка">
+          <select class="found__select" aria-label="Сортировка">
             <option value="cheap">
               Сначала дешевые
             </option>
@@ -134,13 +134,13 @@
             </option>
             <option value="popular">Сначала популярные</option>
           </select>
-          <a class="catalog__button button" href="#" >
+          <a class="found__button button" href="#" >
             <span class="visually-hidden">Показать сеткой</span>
           </a>
-          <a class="catalog__button button" href="#">
+          <a class="found__button button" href="#">
             <span class="visually-hidden">Показать карточками</span>
           </a>
-          <a class="catalog__button button" href="#">
+          <a class="found__button button" href="#">
             <span class="visually-hidden">Показать списком</span>
           </a>
           <ul class="catalog__list-placement">
