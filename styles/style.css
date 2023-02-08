@@ -1,0 +1,359 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+
+}
+.visually-hidden {
+  visibility: hidden;
+}
+.container {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.page-navigation__list {
+  list-style: none;
+
+}
+.page-navigation__link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color:#000000;
+  text-decoration: none;
+
+  text-align: center;
+}
+.icon {
+  text-decoration: none;
+}
+.main-index__hero {
+  background-color: #82B3D3;
+  background: url(../images/background.svg) no-repeat bottom,
+
+url(../images/index-background.jpg) no-repeat top;
+
+background-size: 100% auto;
+text-align: center;
+}
+.button {
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#ffffff;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  border: none;
+  border-radius: 4px;
+}
+.button-brown {
+
+  background-color: #756157;
+
+  padding: 8px 34px;
+
+}
+.button-brown:hover {
+  background-color: #615048;
+}
+.button-brown:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #756157;
+
+}
+.main-heading {
+  display: inline-block;
+  width: 620px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.main-tagline {
+
+  font-size: 22px;
+  line-height: 26px;
+}
+.advantage {
+  text-align: center;
+}
+.advantage__list {
+  list-style: none;
+}
+.advantage__item {
+  display: block;
+
+}
+.advantage__block {
+  background-color: #82B3D3;
+  color:#ffffff;
+}
+.advantage__item-town {
+  width: 1200px;
+}
+.advantage__item-square, .advantage__item-tourist {
+  background-color:rgba(131, 179, 211, 0.12);
+  color: #333333;
+}
+.advantage__item-road {
+ background-color: rgba(131, 179, 211, 0.2);
+ color: #333333;
+}
+.advantage__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+.services {
+  text-align: center;
+}
+.services__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+
+}
+.services__description {
+  color: #333333;
+}
+.services__list {
+  list-style: none;
+}
+.services__item-housing, .services__item-souvenirs{
+  background-color: rgba(131, 179, 211, 0.12);
+}
+.image-housing {
+  display: inline-block;
+  background-image: url(../images/home.svg);
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 72px;
+}
+.image-eat {
+  display: inline-block;
+  background-image: url(../images/food.svg);
+  background-repeat:no-repeat;
+  width: 74px;
+  height: 70px;
+}
+.image-souvenirs {
+  display: inline-block;
+  background-image: url(../images/souvenirs.svg);
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 76px;
+}
+.main-index__search {
+  text-align: center;
+}
+.search__button {
+  padding: 8px 50px;
+}
+.main-index__mailing {
+  background-color: #68A2CA;
+  background-image: url(../images/Subscribe.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color:#ffffff;
+  text-align: center;
+}
+.mailing__button {
+  border-radius: 0 4px 4px 0;
+}
+.button-blue {
+  padding: 8px 50px;
+
+  background-color: #82B3D3;
+
+
+}
+.button-blue:hover {
+  background-color: #68A2CA;
+}
+.button-blue:active {
+  background-color: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+.socials__list {
+  list-style: none;
+
+}
+.socials__icon {
+  text-decoration: none;
+}
+
+
+.page-footer__phone {
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  color:#000000;
+}
+.catalog__heading {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+.catalog__title {
+  text-align: left;
+}
+.catalog__filter {
+  background-color: #68A2CA;
+  background-image: url(..//images/filter.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color:#ffffff;
+
+}
+.catalog__breadcrumbs {
+  list-style: none;
+  font-size: 16px;
+}
+.breadcrumbs__icon {
+  text-decoration: none;
+}
+.filter__group {
+  border: none;
+}
+
+.filter__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.filter__list {
+  list-style: none;
+}
+.filter__control:hover {
+  opacity: 0.6;
+}
+.filter__control:active {
+  opacity: 0.2;
+}
+.input-text {
+  background-color: #F2F2F2;
+  padding: 12px 112px 12px 20px;
+  font-weight: 700;
+  border: none;
+}
+.input-text:hover {
+  background-color: #E6E6E6;
+}
+.input-text:active {
+  background-color:#F2F2F2;
+  border: 2px solid #000000;
+}
+
+
+.filter__control-min {
+  border-radius: 4px 0 0 4px;
+}
+.filter__control-max {
+  border-radius: 0 4px 4px 0;
+}
+.filter__button-reset {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 4px 50px;
+
+}
+.filter__button-reset:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.filter__button-reset:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+.found__select {
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  padding: 14px 121px 14px 20px;
+}
+.found__select:hover {
+  border: 2px solid #68A2CA;
+
+}
+.found__select:active {
+  border: 2px solid #3F5E72;
+}
+.found__view {
+  list-style: none;
+}
+.view__icons {
+  text-transform: none;
+  padding: 17px 16px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+.catalog__list-placement {
+  list-style: none;
+}
+.catalog__item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+.catalog__item-detailed {
+  padding: 8px 26px;
+  margin-right: 20px;
+}
+.catalog__item-favorite {
+  padding: 9px 20px;
+}
+.catalog__rating {
+
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.paganation {
+  list-style: none;
+}
+.paganation__link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  margin: 8px;
+  padding: 12px 24px;
+  background-color: #82B3D3;
+  border-radius: 4px;
+}
+.paganation__link:hover {
+  background-color: #68A2CA;
+}
+.paganation__link:active {
+  background-color: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+.catalog__mailing {
+  text-align: center;
+}
