@@ -265,6 +265,11 @@ margin-bottom: 70px;
   text-align: center;
   margin-bottom: 70px;
 }
+.search__tagline {
+  width: 592px;
+  margin: 0 auto;
+  margin-bottom: 62px;
+}
 
 .search__button {
   padding: 8px 50px;
@@ -285,6 +290,8 @@ margin-bottom: 70px;
   justify-content: center;
 }
 .mailing__tagline {
+  width: 475px;
+  margin: 0 auto;
   margin-bottom: 54px;
 }
 .mailing__mail {
@@ -462,10 +469,16 @@ margin-bottom: 70px;
 .filter__button-reset:active {
   color: rgba(255, 255, 255, 0.3);
 }
+.catalog__results {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+}
 .found__select {
   border: 2px solid #E5E5E5;
   border-radius: 4px;
-  padding: 14px 121px 14px 20px;
+  height: 49px;
 }
 .found__select:hover {
   border: 2px solid #68A2CA;
@@ -476,6 +489,7 @@ margin-bottom: 70px;
 }
 .found__view {
   list-style: none;
+  display: flex;
 }
 .view__icons {
   text-transform: none;
@@ -485,6 +499,12 @@ margin-bottom: 70px;
 }
 .catalog__list-placement {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 80px;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .catalog__item-title {
   font-weight: 700;
@@ -507,6 +527,10 @@ margin-bottom: 70px;
 }
 .paganation {
   list-style: none;
+  margin-top: 0;
+  padding-left: 0;
+  margin-bottom: 60px;
+  display: flex;
 }
 .paganation__link {
   display: inline-block;
@@ -531,7 +555,15 @@ margin-bottom: 70px;
 
 .catalog__mailing {
   text-align: center;
+  padding-top: 96px;
+  padding-bottom: 104px;
 }
+.mailing__heading {
+  width:  405px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
 .socials__svg {
   fill: #83B3D3;
 }

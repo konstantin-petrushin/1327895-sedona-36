@@ -134,43 +134,47 @@
 
 
         <section class="catalog__found found">
+          <h2 class="visually-hidden">Результаты поиска</h2>
           <div class="catalog__wrapper wrapper">
-            <h2 class="visually-hidden">Результаты поиска</h2>
-            <p class="catalog__title main-heading">
-              <span>Найдено гостиниц:</span>
-              <span>38</span>
-            </p>
+            <div class="catalog__results">
+              <p class="catalog__title main-heading">
+                <span>Найдено гостиниц:</span>
+                <span>38</span>
+              </p>
 
-            <select class="found__select" aria-label="Сортировка">
-              <option value="cheap">
-                Сначала дешевые
-              </option>
-              <option value="expensive">
-                Сначала дорогие
-              </option>
-              <option value="popular">Сначала популярные</option>
-            </select>
+              <select class="found__select" aria-label="Сортировка">
+                <option value="cheap">
+                  Сначала дешевые
+                </option>
+                <option value="expensive">
+                  Сначала дорогие
+                </option>
+                <option value="popular">Сначала популярные</option>
+              </select>
 
-            <ul class="found__view view">
-              <li class="view__item">
-                <a class="view__icons" href="#" >
-                  <span class="visually-hidden">Показать сеткой</span>
-                  <svg class="view__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="14"><path fill="#000" d="M4 0H0v6h4V0ZM16 0h-4v6h4V0ZM10 0H6v6h4V0ZM4 8H0v6h4V8ZM16 8h-4v6h4V8ZM10 8H6v6h4V8Z"/></svg>
-                </a>
-              </li>
-              <li class="view__item">
-                <a class="view__icons" href="#">
-                  <span class="visually-hidden">Показать карточками</span>
-                  <svg class="view__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="14"><path fill="#000" d="M16 12H0v2h16v-2ZM14 2v6H2V2h12Zm2-2H0v10h16V0Z"/></svg>
-                </a>
-              </li>
-              <li class="view__item">
-                <a class="view__icons" href="#">
-                  <span class="visually-hidden">Показать списком</span>
-                  <svg class="view__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="14"><path fill="#000" d="M2 0H0v2h2V0ZM16 0H4v2h12V0ZM2 4H0v2h2V4ZM16 4H4v2h12V4ZM2 8H0v2h2V8ZM16 8H4v2h12V8ZM2 12H0v2h2v-2ZM16 12H4v2h12v-2Z"/></svg>
-                </a>
-              </li>
-            </ul>
+              <ul class="found__view view">
+                <li class="view__item">
+                  <a class="view__icons" href="#" >
+                    <span class="visually-hidden">Показать сеткой</span>
+                    <svg class="view__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="14"><path fill="#000" d="M4 0H0v6h4V0ZM16 0h-4v6h4V0ZM10 0H6v6h4V0ZM4 8H0v6h4V8ZM16 8h-4v6h4V8ZM10 8H6v6h4V8Z"/></svg>
+                  </a>
+                </li>
+                <li class="view__item">
+                  <a class="view__icons" href="#">
+                    <span class="visually-hidden">Показать карточками</span>
+                    <svg class="view__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="14"><path fill="#000" d="M16 12H0v2h16v-2ZM14 2v6H2V2h12Zm2-2H0v10h16V0Z"/></svg>
+                  </a>
+                </li>
+                <li class="view__item">
+                  <a class="view__icons" href="#">
+                    <span class="visually-hidden">Показать списком</span>
+                    <svg class="view__svg" xmlns="http://www.w3.org/2000/svg" width="16" height="14"><path fill="#000" d="M2 0H0v2h2V0ZM16 0H4v2h12V0ZM2 4H0v2h2V4ZM16 4H4v2h12V4ZM2 8H0v2h2V8ZM16 8H4v2h12V8ZM2 12H0v2h2v-2ZM16 12H4v2h12v-2Z"/></svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+
 
             <ul class="catalog__list-placement">
               <li class="catalog__item">
@@ -275,8 +279,10 @@
 
         <section class="catalog__mailing mailing">
 
-            <h2 class="main-heading">Подпишитесь на рассылку</h2>
-            <p class="main-tagline">Только полезная информация и никакого спама, честное бойскаутское!</p>
+            <h2 class="mailing__heading main-heading">Подпишитесь на рассылку</h2>
+            <p class="mailing__tagline main-tagline">Только полезная информация и никакого спама, честное бойскаутское!</p>
+
+
             <form action="https://echo.htmlacademy.ru/" method="post" class="mailing__form">
               <input class="mailing__mail mailing__mail--gray" type="text" name="email" placeholder="Ваш e-mail">
               <button class="mailing__button button-blue button" type="submit">Подписаться</button>
